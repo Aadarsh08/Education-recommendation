@@ -11,8 +11,8 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the scaler, label encoder, model, and class names=====================
-scaler = pickle.load(open("Models\scaler.pkl", 'rb'))
-model = pickle.load(open("Models\model.pkl", 'rb'))
+scaler = pickle.load(open("Models/scaler.pkl", 'rb'))
+model = pickle.load(open("Models/model.pkl", 'rb'))
 class_names = ['Lawyer', 'Doctor', 'Government Officer', 'Artist', 'Unknown',
                'Software Engineer', 'Teacher', 'Business Owner', 'Scientist',
                'Banker', 'Writer', 'Accountant', 'Designer',
