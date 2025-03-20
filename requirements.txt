@@ -3,6 +3,5 @@ gunicorn==23.0.0
 tensorflow==2.19.0
 numpy>=1.26.0,<2.2.0
 scipy>=1.8.0,<1.23.5
-scipy>=1.23.5
 h5py>=3.13.0
 xgboost==2.1.3
